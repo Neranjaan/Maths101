@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+        body{
+            background-color: khaki;
+            color:black;
+            font-size: 25px;
+            margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(red, yellow,white,khaki,yellow,red);
+        }
+        #myCanvas{
+            background-color: white;
+            color:black;
+
+        }
+        #div1{
+            margin: auto;
+            background-color: white;
+            margin-left: 40px;
+            width: fit-content;
+            
+            
+        }
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    
+
+   
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("anglecanvas");
+            var context = canvas.getContext("2d");
+            context.moveTo(196, 149);
+            context.lineTo(490, 148);
+            context.moveTo(250, 200);
+            context.lineTo(300, 50);
+            context.stroke();
+            
+        };
+    </script>
+    
+    <marquee><h1>Maths</h1></marquee>
+    <div class="topnav">
+        <a class="active" href="Home">Home</a>
+        <a href="Polygons.html">Polygons</a>
+        <a href="Circles.html">Circles</a>
+        <a href="Fractions.html">Fractions</a>
+        <a href="Decimals.html">Decimals</a>
+        
+      </div>
+      <div id="div1">
+    <ul>
+        <li>Angles on a strainght line add up to 180</li>
+        <li>You only can have maximum of up to 4 angles</li>
+        <li>You can mesure up to 2 angles at a time (4 angles on a 360° protractor)</li>
+    </ul>
+    <h2>For Example:</h2>
+    <img src="th.jpg"></img>
+    <h3>How to solve it</h3>
+    <p>You have to add 45,39 and 24 then minus the answer with 180 which equals to 72</p>
+    <p>Angle b is 72°</p>
+    <p>This can also work on angels inside the shape for example a polygon.</p>
+</div>
+     
+    
+</body>
+</html>
